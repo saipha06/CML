@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+.EnquiryFormInput{
+  margin-top: unset!important;
+  margin-bottom: unset!important;
+} */
+
+
+
+.MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"], .MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] 
+{
+  height:30px!important;
+  border-radius: unset!important;
+  border-color: black!important;
+  border-width: 2px!important;
+}
+
+.MuiInputBase-root.Mui-disabled
+{
+  height:30px!important;
+  flex-wrap: unset!important;
+  border-radius: unset!important;
+  border-width: 2px!important;
+  background-color: rgba(239, 239, 239, 0.3)!important;
+  border-color: rgba(118, 118, 118, 0.3)!important;
+  padding-right: 39px!important;
+}
+
+.MuiAutocomplete-inputRoot 
+{
+  flex-wrap: unset!important;
+}
+
+.MuiAutocomplete-root .Mui-focused .MuiAutocomplete-hasClearIcon 
+{
+  border-color: black!important;
+}
+
+.MuiFormControl-marginNormal 
+{
+  margin-top: unset!important;
+  margin-bottom: unset!important;
+}
+
+.customButton
+{
+  margin-left: 30px!important;
+  margin-right: 30px!important;
+}
